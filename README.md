@@ -28,6 +28,9 @@ An intelligent, state-controlled automated pill dispensing system built for embe
 
 ```
 ├── app_state_controlled.py     # Main Flask server and dispensing state controller
+├── Hardware Details/           # Schematics and bill of materials
+│   ├── Circuit Connections.pdf # Wiring diagrams and GPIO pinout connections
+│   └── List of Components.pdf  # Detailed BOM and component specifications
 ├── data/                       # Schedule configurations, patient records, and reference masks
 │   ├── medication_logs.json
 │   ├── medication_schedule.json
