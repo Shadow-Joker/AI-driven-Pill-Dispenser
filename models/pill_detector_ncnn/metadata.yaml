@@ -1,0 +1,20 @@
+description: Ultralytics YOLO26n model trained on pill_dataset/data.yaml
+author: Ultralytics
+date: '2026-09-02T02:52:17.432947+05:30'
+version: 8.4.137
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: pill
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false

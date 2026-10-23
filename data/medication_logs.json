@@ -1,0 +1,1492 @@
+[
+    {
+        "timestamp": "2026-08-29 01:25:00",
+        "pill_number": null,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_1",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 01:25",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-08-29 01:25:00",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_1",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 1",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-08-29 01:25:06",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_1",
+        "event": "PATIENT_DETECTED",
+        "result": "SUCCESS",
+        "message": "Patient detected by camera.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-08-29 01:25:06",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_1",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 1",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-08-29 01:25:08",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_1",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-08-29 01:25:08",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_1",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-08-29 01:30:00",
+        "pill_number": null,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_2",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 01:30",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-08-29 01:30:00",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_2",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 1",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-08-29 01:30:31",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_2",
+        "event": "PATIENT_DETECTED",
+        "result": "SUCCESS",
+        "message": "Patient detected by camera.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-08-29 01:30:31",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_2",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 1",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-08-29 01:30:33",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_2",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-08-29 01:30:33",
+        "pill_number": 1,
+        "patient_id": "P001",
+        "schedule_id": "test_pill_2",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 01:19:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 01:19",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 01:19:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 01:44:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 01:44",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 01:44:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 01:44:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_SYSTEM_ERROR",
+        "result": "FAILED",
+        "message": "Medication state machine stopped unexpectedly: cannot access local variable 'medication_patient_id' where it is not associated with a value",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 02:04",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:08",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:14",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 02:04:17",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 02:05",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:02",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:10",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:11",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:30",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 02:05:48",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 02:07",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:02",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:02",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 02:07:14",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 05:59",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:23",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 05:59:24",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 06:02",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:08",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 06:02:38",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788292031230",
+        "event": "MEDICATION_TIMEOUT",
+        "result": "FAILED",
+        "message": "Medication cycle timed out.",
+        "state": "TIMEOUT"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 06:04",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 06:04:31",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 06:23",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:22",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:28",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 06:23:30",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 07:15:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:15",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:15:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:15:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:15:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:15:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:15:19",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_TIMEOUT",
+        "result": "FAILED",
+        "message": "Medication cycle timed out.",
+        "state": "TIMEOUT"
+    },
+    {
+        "timestamp": "2026-09-02 07:18:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:18",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:18:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:18:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:18:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:18:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:18:20",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_TIMEOUT",
+        "result": "FAILED",
+        "message": "Medication cycle timed out.",
+        "state": "TIMEOUT"
+    },
+    {
+        "timestamp": "2026-09-02 07:20:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:20",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:20:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:20:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:20:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:20:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:20:20",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_TIMEOUT",
+        "result": "FAILED",
+        "message": "Medication cycle timed out.",
+        "state": "TIMEOUT"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:03",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:21",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:03",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:15",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:15",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:19",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:19",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:28",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:34",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 07:21:44",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:24",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:08",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:13",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:14",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:28",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 07:24:29",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:35",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:10",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:11",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:22",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 07:35:53",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_TIMEOUT",
+        "result": "FAILED",
+        "message": "Medication cycle timed out.",
+        "state": "TIMEOUT"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:37",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:01",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:22",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 07:37:24",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788313574243",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:39",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:04",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:06",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:21",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 07:39:24",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_2_1788292031230",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:00",
+        "pill_number": null,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "SCHEDULE_TRIGGERED",
+        "result": "STARTED",
+        "message": "Scheduled medication triggered at 07:41",
+        "state": "IDLE"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:00",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_CYCLE_STARTED",
+        "result": "STARTED",
+        "message": "Medication cycle started for pill 2",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PATIENT_RECOGNIZED",
+        "result": "SUCCESS",
+        "message": "Recognized patient P0001.",
+        "state": "WAITING_FOR_PATIENT"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:05",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSING",
+        "result": "STARTED",
+        "message": "Dispensing pill 2",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:09",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_DISPENSED",
+        "result": "SUCCESS",
+        "message": "Motor dispensing completed.",
+        "state": "DISPENSING"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:09",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_VERIFIED",
+        "result": "SUCCESS",
+        "message": "Pill detected in dispensing tray.",
+        "state": "WAITING_FOR_PILL"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:10",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "PILL_PICKED_UP",
+        "result": "SUCCESS",
+        "message": "Pill removed from tray.",
+        "state": "WAITING_FOR_PICKUP"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:30",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "HAND_DETECTED",
+        "result": "SUCCESS",
+        "message": "Hand detected after pill pickup.",
+        "state": "WAITING_FOR_HAND"
+    },
+    {
+        "timestamp": "2026-09-02 07:41:31",
+        "pill_number": 2,
+        "patient_id": "P0001",
+        "schedule_id": "P0001_1_1788295437402",
+        "event": "MEDICATION_TAKEN",
+        "result": "SUCCESS",
+        "message": "Face, hand and mouth conditions satisfied.",
+        "state": "WAITING_FOR_MOUTH"
+    }
+]
